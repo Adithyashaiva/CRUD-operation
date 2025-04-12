@@ -30,7 +30,7 @@ A Django-based web application to manage registrations with Create, Read, Update
 
 --->  Clone the repository:
 
-   git clone https://github.com/your-username/registration-management-system.git
+   git clone https://github.com/Adithyashaiva/registration-management-system.git
 
    test/scripts/activate  ```(for activating virtual environment)```
    
@@ -53,6 +53,7 @@ A Django-based web application to manage registrations with Create, Read, Update
 
 --->  Apply migrations:
 
+   pip install mysqlclient
    python manage.py makemigrations
    python manage.py migrate
 
