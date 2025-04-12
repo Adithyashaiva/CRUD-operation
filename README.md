@@ -161,4 +161,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-- Adithya N S - [GitHub Profile]()
+- Adithya N S - [GitHub Profile](https://github.com/Adithya N S)
