@@ -28,19 +28,17 @@ A Django-based web application to manage registrations with Create, Read, Update
 
 ### Setup Instructions
 
-1. Clone the repository:
-   ```bash
+--->  Clone the repository:
+
    git clone https://github.com/your-username/registration-management-system.git
+
+   test/scripts/activate  ```(for activating virtual environment)```
+   
    cd registration-management-system
-   ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Configure the database in `settings.py`:
-   ```python
+--->  Configure the database in `settings.py`:
+  
    DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.mysql',
@@ -51,23 +49,23 @@ A Django-based web application to manage registrations with Create, Read, Update
            'PORT': '3306',
        }
    }
-   ```
 
-4. Apply migrations:
-   ```bash
+
+--->  Apply migrations:
+
    python manage.py makemigrations
    python manage.py migrate
-   ```
 
-5. Run the server:
-   ```bash
+
+--->  Run the server:
+
    python manage.py runserver
-   ```
 
-6. Open the application in your browser:
-   ```
+
+--->  Open the application in your browser:
+
    http://127.0.0.1:8000/
-   ```
+
 
 ---
 
@@ -119,43 +117,6 @@ registration-management-system/
 - **Database**: MySQL
 - **Styling**: Unique CSS files for each page
 - **Version Control**: Git and GitHub
-
----
-
-## Screenshots
-
-### Home Page
-![Home Page](https://via.placeholder.com/800x400.png?text=Screenshot+of+Home+Page)
-
-### Create Registration
-![Create Registration](https://via.placeholder.com/800x400.png?text=Screenshot+of+Create+Page)
-
----
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
