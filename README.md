@@ -53,7 +53,7 @@ A Django-based web application to manage registrations with Create, Read, Update
 
 --->  Apply migrations:
 
-   pip install mysqlclient
+   pip install mysqlclient   ``` connecting to mysql ```
    python manage.py makemigrations
    python manage.py migrate
 
