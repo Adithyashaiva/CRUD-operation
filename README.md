@@ -32,9 +32,18 @@ A Django-based web application to manage registrations with Create, Read, Update
 
    git clone https://github.com/Adithyashaiva/registration-management-system.git
 
+   python -m venv test   ``` creating virtual environment ```
    test/scripts/activate  ```(for activating virtual environment)```
+
+   pip install django   ``` for installation of django ```
    
    cd registration-management-system
+
+
+
+---> Creating MySQL database
+
+create database database_name
 
 
 --->  Configure the database in `settings.py`:
@@ -49,7 +58,7 @@ A Django-based web application to manage registrations with Create, Read, Update
            'PORT': '3306',
        }
    }
-
+   
 
 --->  Apply migrations:
 
